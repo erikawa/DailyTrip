@@ -32,8 +32,8 @@ router.get("/register", function(req, res) {
 	res.sendFile(path + "register.html");
 });
 
-router.get("/teste", function(req, res) {
-	res.sendFile(path + "teste.html");
+router.get("/maps", function(req, res) {
+	res.sendFile(path + "maps.html");
 });
 
 app.use("/", router);
