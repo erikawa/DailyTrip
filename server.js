@@ -41,7 +41,6 @@ app.use("/bootstrap", express.static(__dirname + "/node_modules/bootstrap/dist/"
 app.use("/jquery", express.static(__dirname + "/node_modules/jquery/dist/"));
 app.use("/assets", express.static(__dirname + "/assets/"));
 app.use("/mustache", express.static(__dirname + "/node_modules/mustache/"));
-app.use("/templates", express.static(__dirname + "/views/templates/"));
 app.use("*", function(req, res) {
 	//esponse.sendFile(path + "404.html");
 });

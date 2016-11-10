@@ -1,0 +1,32 @@
+.centered-element {
+	margin: auto;
+	width: 10%;
+}
+
+.btn-facebook {
+	color: #FFF;
+	background-color: #3B5998;
+	padding: 10px 10% 10px 10%;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+a:active, a:hover {
+	color: #FFF;
+	background-color: #3a61b3;
+	text-decoration: none;
+} 
+
+hr {
+	width: 50%
+}
+
+.input-fixed {
+	border-radius: 5px !important;
+	width: 100%;
+}
+
+.input-group-fixed {
+	width: 30%;
+	padding-top: 10px;
+}
