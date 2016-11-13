@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="dailytrip">
+<head>
+	<meta charset="utf-8">
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/profile.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body ng-controller="ProfileController">
+	<!-- Cabeçalho -->
+	<header>
+	    <nav class="navbar navbar-default header-navbar">
+	      <div class="container">
+	        <div class="navbar-header header-navbar-font">
+	          <a class="navbar-brand header-centered-fixed" href="/home">Daily Trip</a>
+	        </div>
+	      </div>
+	    </nav>
+	</header>
+	
+	<div class="container">
+		<img class="img-responsive center-block" src="{{profile.profile_picture}}" alt="{{profile.full_name}}">
+	</div>
+	<script type="text/javascript" src="/angular/angular.min.js"></script>
+	<script type="text/javascript" src="/assets/js/angular-main.js"></script>
+	<script type="text/javascript" src="/assets/js/controllers/profile-controller.js"></script>
+</body>
+</html>

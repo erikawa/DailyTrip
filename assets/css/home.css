@@ -3,7 +3,7 @@ html, body {
 }
 
 header {
-	background-image: url(/assets/img/background_op3.jpg);
+	background-image: url(/assets/img/home_img/background_op3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 100%;
@@ -56,8 +56,26 @@ header a {
 	color: #FFF !important;
 }
 
+.icon-instagram {
+	background: url(/assets/img/home_img/instagram-ico.png) no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
 .button-center {
 	display: block;
 	margin: 5px auto;
 	width: 50%;
+}
+
+.btn-instagram {
+	background-color: #5a4e3a;
+	border-color: #5a4e3a;
+}
+
+.btn-instagram:hover {
+	text-decoration: none;
+	background-color: #524837;
+	border-color: #524837;
 }
