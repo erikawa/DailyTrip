@@ -40,8 +40,17 @@ header h1 {
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}	
+
+	.btn-margin-fixed {
+		width: 80%;
+		margin: 5px auto;
+	}
 }
 
+.btn-margin-fixed {
+	width: 50%;
+	margin: 5px auto;
+}
 
 .header-itens {
 	float: right;
@@ -61,12 +70,6 @@ header a {
     float: left;
     width: 20px;
     height: 20px;
-}
-
-.button-center {
-	display: block;
-	margin: 5px auto;
-	width: 50%;
 }
 
 .btn-instagram {
