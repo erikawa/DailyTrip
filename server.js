@@ -7,7 +7,6 @@ var router = express.Router();
 
 router = routers.configureRoutes(router, path);
 
-
 app.use("/", router);
 app.use("/bootstrap", express.static(__dirname + "/node_modules/bootstrap/dist/"));
 app.use("/jquery", express.static(__dirname + "/node_modules/jquery/dist/"));

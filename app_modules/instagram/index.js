@@ -2,10 +2,7 @@ var api = require('instagram-node').instagram();
 var redirect_uri = 'http://localhost:3000/handleauth/';
 var profileInfo = null;
 
-api.use({
-  client_id: 'e8760072df4b4734a3737657c1063063',
-  client_secret: 'c7141f553afe4f11abb7e24fcfbe0371'
-});
+api.use(require('../../config.json'));
 
 module.exports = {
 
