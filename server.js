@@ -7,13 +7,13 @@ var router = express.Router();
 
 router = routers.configureRoutes(router, path);
 
-app.use("/", router);
-app.use("/bootstrap", express.static(__dirname + "/node_modules/bootstrap/dist/"));
-app.use("/jquery", express.static(__dirname + "/node_modules/jquery/dist/"));
+app.use('/', router);
+app.use('/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist/'));
+app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
 app.use('/angular', express.static(__dirname + '/node_modules/angular/'));
-app.use("/assets", express.static(__dirname + "/assets/"));
+app.use('/assets', express.static(__dirname + '/assets/'));
 
-app.use("*", function(req, res) {
+app.use('*', function(req, res) {
 	//esponse.sendFile(path + "404.html");
 });
 

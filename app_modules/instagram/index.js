@@ -10,7 +10,7 @@ module.exports = {
     api.authorize_user(req.query.code, redirect_uri, function(err, result) {
         if (err) {
           console.log(err.body);
-          res.send("{}");
+          res.send('{}');
         } else {
           profileInfo = result;
         }
