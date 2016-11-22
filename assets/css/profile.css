@@ -3,3 +3,19 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+.profile-pic-round {
+	border-radius: 20px;
+}
+
+.profile-col-fixed {
+	padding-left: 30px;
+}
+
+.maps-fixed {
+	border-color: grey;
+	border-style: solid;
+	border-radius: 100px;
+	height: 300px;
+}
+
