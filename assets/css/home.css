@@ -23,12 +23,23 @@ header h1 {
 	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	top: 40%;
-	left: 40%;
+	left: 42%;
 	transform: translate(-40%, -30%);
 }	
 
+.btn-margin-fixed {
+	width: 60%;
+	margin: 5px auto;
+}
 
-@media (min-width: 760px) {
+@media (min-width: 320px) {
+	.btn-margin-fixed {
+		width: 80%;
+		margin: 5px auto;
+	}
+}
+
+@media (min-width: 800px) {
 	.welcome-banner {
 		color: #FFF;
 		padding: 20px;
@@ -42,15 +53,11 @@ header h1 {
 	}	
 
 	.btn-margin-fixed {
-		width: 80%;
+		width: 50%;
 		margin: 5px auto;
 	}
 }
 
-.btn-margin-fixed {
-	width: 50%;
-	margin: 5px auto;
-}
 
 .header-itens {
 	float: right;
